@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+#mainnavbar .nav-link:hover {
+    color: white;
+}
+
+#mainnavbar .nav-link {
+    color: #f9ab30;
+    font-size: 1.5rem;
+
+}
+
+#mainnavbar .navbar-brand {
+    color: #f9ab30;
+    font-size: 2rem;
+}
+
+
+
+
+.footer {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.863)), url("img/footerimg.jpg");
+    height: 100vh;
+    /* width: 100%; */
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .container {
+    padding-top: 150px;
+}

@@ -79,8 +79,8 @@ h2 {
 
 .footer {
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.863)), url("img/footerimg.jpg");
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+    /* width: 100%; */
     background-size: cover;
     background-position: center;
 
@@ -96,6 +96,28 @@ h2 {
     bottom: 50%;
     transform: translate(0, 50%);
 }
+
+.reg-container {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    /* margin: 10px 100px 10px 80px; */
+}
+
+.reg-img {
+    background-image: url("img/booking-img.jpg");
+}
+
+.bgimg {
+    background-image: url("img/booking-img.jpg");
+}
+
+.text-center {
+    margin-top: 100px;
+}
+
+/* .item img {
+    height: 280px;
+} */
 
 /*
 <div class="col-m-12 col-6">
